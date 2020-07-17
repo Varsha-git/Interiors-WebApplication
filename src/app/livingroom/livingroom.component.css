@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+}
+
+
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+.img {
+  width: 350px;
+  height: 450px;
+  display: inline-block;
+  margin: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 5s;
+  border: 3px solid #E73C7E;
+  border-radius: 12px;
+}
+
+.img:hover {
+  background-position: bottom center;
+}
+
+.box {
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+
+/* images work */
+
+.img1 {
+  background-image: url(src/assets/l18.jpg);
+}
+
+.img2 {
+  background-image: url(src/assets/l19.jpg);
+}
+
+.img3 {
+  background-image: url(src/assets/l20.jpg);
+}
+
+.img4 {
+  background-image: url(src/assets/l8.jpg);
+}
+
+.img5 {
+  background-image: url(src/assets/l5.jpg);
+}
+
+.img6 {
+  background-image: url(src/assets/l11.jpg);
+}
+
+.img7 {
+  background-image: url(src/assets/l10.jpg);
+}
+
+.img8 {
+  background-image: url(src/assets/l25.jpg);
+}
+
+.img9 {
+  background-image: url(src/assets/l27.jpg);
+}
+
+.img10 {
+  background-image: url(src/assets/l9.jpg);
+}
+
+.img11 {
+  background-image: url(src/assets/l14.jpg);
+}
+
+.img12 {
+  background-image: url(src/assets/l15.jpg);
+}
+
+.img13 {
+  background-image: url(src/assets/l17.jpg);
+}
+
+.img14 {
+  background-image: url(src/assets/l21.jpg);
+}
+
+.img15 {
+  background-image: url(src/assets/l22.jpg);
+}
+
+.img16 {
+  background-image: url(src/assets/l23.jpg);
+}
+
+.img17 {
+  background-image: url(src/assets/l26.jpg);
+}
+
+.img18 {
+  background-image: url(src/assets/l28.jpg);
+}
+
+.img19 {
+  background-image: url(src/assets/l29.jpg);
+}
+
+.img20 {
+  background-image: url(src/assets/l30.jpg);
+}
+
+.img21 {
+  background-image: url(src/assets/l31.jpg);
+}
+
+.img22 {
+  background-image: url(src/assets/l32.jpg);
+}
+
+.img23 {
+  background-image: url(src/assets/l1.jpg);
+}
+
+.img24 {
+  background-image: url(src/assets/l2.jpg);
+}
+
+.img25 {
+  background-image: url(src/assets/l3.jpg);
+}
+
+.img26 {
+  background-image: url(src/assets/l4.jpg);
+}
+
+.img27 {
+  background-image: url(src/assets/l6.jpg);
+}
+
+.img28 {
+  background-image: url(src/assets/l7.jpg);
+}
+
+.img29 {
+  background-image: url(src/assets/l12.jpg);
+}
+
+.img30 {
+  background-image: url(src/assets/l23.jpg);
+}
+
+.img31 {
+  background-image: url(src/assets/l16.jpg);
+}
+
+.img32 {
+  background-image: url(src/assets/l24.jpg);
+}

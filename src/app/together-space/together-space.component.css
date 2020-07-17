@@ -1,0 +1,151 @@
+.container {
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+.img {
+  width: 350px;
+  height: 450px;
+  display: inline-block;
+  margin: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 5s;
+  border: 3px solid #E73C7E;
+  border-radius: 12px;
+}
+
+.img:hover {
+  background-position: bottom center;
+}
+
+.box {
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+/* image work */
+
+.img1 {
+  background-image: url(src/assets/t6.jpg);
+}
+
+.img2 {
+  background-image: url(src/assets/t7.jpg);
+}
+
+.img3 {
+  background-image: url(src/assets/t10.jpg);
+}
+
+.img4 {
+  background-image: url(src/assets/t2.jpg);
+}
+
+.img5 {
+  background-image: url(src/assets/t4.jpg);
+}
+
+.img6 {
+  background-image: url(src/assets/t5.jpg);
+}
+
+.img7 {
+  background-image: url(src/assets/t1.jpg);
+}
+
+.img8 {
+  background-image: url(src/assets/t14.jpg);
+}
+
+.img9 {
+  background-image: url(src/assets/t13.jpg);
+}
+
+.img10 {
+  background-image: url(src/assets/t11.jpg);
+}
+
+.img11 {
+  background-image: url(src/assets/t27.jpg);
+}
+
+.img12 {
+  background-image: url(src/assets/t16.jpg);
+}
+
+.img13 {
+  background-image: url(src/assets/t15.jpg);
+}
+
+.img14 {
+  background-image: url(src/assets/t17.jpg);
+}
+
+.img15 {
+  background-image: url(src/assets/t18.jpg);
+}
+
+.img16 {
+  background-image: url(src/assets/t19.jpg);
+}
+
+.img17 {
+  background-image: url(src/assets/t20.jpg);
+}
+
+.img18 {
+  background-image: url(src/assets/t21.jpg);
+}
+
+.img19 {
+  background-image: url(src/assets/t22.jpg);
+}
+
+.img20 {
+  background-image: url(src/assets/t25.jpg);
+}
+
+.img21 {
+  background-image: url(src/assets/t30.jpg);
+}
+
+.img22 {
+  background-image: url(src/assets/t3.jpg);
+}
+
+.img23 {
+  background-image: url(src/assets/t8.jpg);
+}
+
+.img24 {
+  background-image: url(src/assets/t9.jpg);
+}
+
+.img25 {
+  background-image: url(src/assets/t12.jpg);
+}
+
+.img26 {
+  background-image: url(src/assets/t23.jpg);
+}
+
+.img27 {
+  background-image: url(src/assets/t24.jpg);
+}
+
+.img28 {
+  background-image: url(src/assets/t26.jpg);
+}
+
+.img29 {
+  background-image: url(src/assets/t28.jpg);
+}
+
+.img30 {
+  background-image: url(src/assets/t29.jpg);
+}

@@ -1,0 +1,48 @@
+    .image1 {
+      background-image: url(src/assets/about1.jpg);
+      height: 94%;
+      max-width: 74%;
+
+      
+      margin-left: 15px;
+      margin-top: 20px;
+      border-radius: 50px;
+      
+    }
+      
+    .image2 {
+      background-image: url(src/assets/about2.jpg);
+      height: 94%;
+      width: 74%;
+      margin-left: 15px;
+      border-radius: 50px;
+
+    }
+
+    .image3 {
+      background-image: url(src/assets/about3.jpg);
+      height: 94%;
+      width: 74%;
+      margin-left: 15px;
+      border-radius: 50px;
+
+    }
+
+    .image4 {
+      background-image: url(src/assets/about4.jpg);
+      height: 94%;
+      width: 74%;
+      margin-left: 15px;
+      border-radius: 50px;
+
+    }
+.contact1{
+    background-color: black;
+    height: 60%;
+    border-radius: 30px;
+    color:yellow;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 50px;
+}

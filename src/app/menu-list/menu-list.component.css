@@ -1,0 +1,41 @@
+.list {
+  height: 100vh;
+  background-color: rgba(18, 189, 189, 0.281);
+  display: flex;
+  position: relative;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #04d9ff, #4169E1);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  margin-top: 80px;
+  justify-content: space-around;
+}
+
+.list a {
+  
+  font-size: 3em;
+  padding: 50px;
+  font-family: 'Cinzel Decorative', cursive;
+  margin-top: 200px;
+  text-decoration: none ;
+  color: black;
+}
+
+.list a:hover {
+  font-size: 6em;
+  color: #fff;
+}
+
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}

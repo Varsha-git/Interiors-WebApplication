@@ -1,0 +1,11 @@
+
+/*.carousel-item
+{
+    transition: opacity 1.2s ease-in-out, visibility 1.2s;
+}*/
+
+.container-fluid
+{
+    display: flex;
+    
+}

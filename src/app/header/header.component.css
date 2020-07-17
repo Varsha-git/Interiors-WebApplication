@@ -1,0 +1,6 @@
+.container-fluid {
+  display: flex;
+ margin-top: 85px;
+  border: 2px solid rgb(139, 139, 139);
+  height: 100vh;
+}

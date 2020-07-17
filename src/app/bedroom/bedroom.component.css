@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+.body1 {
+  margin: 0;
+  padding: 0;
+  background: #333;
+  background: #282828;
+  background: linear-gradient(-45deg, #52c2ee, #E73C7E, #17bfdd, #4169E1);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.video1 {
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+.videodiv {
+  height: 100vh;
+
+}
+
+.intro1 {
+  font-size: 2em;
+  margin-bottom: 200px;
+  font-weight: 600;
+  color: rgb(23, 1, 85);
+  margin-top: 100px;
+  font-family: 'Cinzel Decorative', cursive;
+
+}
+
+.intro2 {
+  font-size: 4em;
+  font-family: 'Cinzel Decorative', cursive;
+  color: white;
+  margin-top: 50px;
+}
+
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+
+.img {
+  width: 350px;
+  height: 450px;
+  display: inline-block;
+  margin: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 5s;
+  border: 3px solid #E73C7E;
+  border-radius: 12px;
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img:hover {
+  background-position: bottom center;
+}
+
+.box {
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+
+/* images work */
+
+.img1 {
+  background-image: url(src/assets/b5.jpg);
+}
+
+.img2 {
+  background-image: url(src/assets/b19.jpg);
+}
+
+.img3 {
+  background-image: url(src/assets/b23.jpg);
+}
+
+.img4 {
+  background-image: url(src/assets/b12.jpg);
+}
+
+.img5 {
+  background-image: url(src/assets/b15.jpg);
+}
+
+.img6 {
+  background-image: url(src/assets/b17.jpg);
+}
+
+.img7 {
+  background-image: url(src/assets/b18.jpg);
+}
+
+.img8 {
+  background-image: url(src/assets/b21.jpg);
+}
+
+.img9 {
+  background-image: url(src/assets/b27.jpg);
+}
+
+.img10 {
+  background-image: url(src/assets/b4.jpg);
+}
+
+.img11 {
+  background-image: url(src/assets/b9.jpg);
+}
+
+.img12 {
+  background-image: url(src/assets/b31.jpg);
+}
+
+.img13 {
+  background-image: url(src/assets/b14.jpg);
+}
+
+.img14 {
+  background-image: url(src/assets/b24.jpg);
+}
+
+.img15 {
+  background-image: url(src/assets/b25.jpg);
+}
+
+.img16 {
+  background-image: url(src/assets/b10.jpg);
+}
+
+.img17 {
+  background-image: url(src/assets/b11.jpg);
+}
+
+.img18 {
+  background-image: url(src/assets/b13.jpg);
+}
+
+.img19 {
+  background-image: url(src/assets/b2.jpg);
+}
+
+.img20 {
+  background-image: url(src/assets/b3.jpg);
+}
+
+.img21 {
+  background-image: url(src/assets/b23.jpg);
+}
+
+.img22 {
+  background-image: url(src/assets/b29.jpg);
+}
+
+.img23 {
+  background-image: url(src/assets/b16.jpg);
+}
+
+.img24 {
+  background-image: url(src/assets/b20.jpg);
+}
+
+.img25 {
+  background-image: url(src/assets/b30.jpg);
+}
+
+.img26 {
+  background-image: url(src/assets/b24.jpg);
+}
+
+.img27 {
+  background-image: url(src/assets/b26.jpg);
+}
+
+.img28 {
+  background-image: url(src/assets/b22.jpg);
+}
+
+.img29 {
+  background-image: url(src/assets/b19.jpg);
+}
+
+.img30 {
+  background-image: url(src/assets/b28.jpg);
+}
+
+.img31 {
+  background-image: url(src/assets/b1.jpg);
+}
