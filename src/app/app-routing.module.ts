@@ -67,7 +67,7 @@ const routes: Routes = [
   { path: 'home', component: HeaderComponent },
   { path: 'aboutus', component: AboutusComponent },
   { path: 'contactus', component: ContactusComponent },
-  { path: 'shop', component: LoginComponent },
+  { path: 'shop', component: ProductsPageComponent },
   { path: 'cart', component: CartComponent },
   { path: 'products', component: ProductsPageComponent },
 ];
