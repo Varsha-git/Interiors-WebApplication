@@ -13,6 +13,17 @@ It lead me to wining another award in Mega Pro show.
 Here are few technologies which carved out my best possibilites in my projects.
 HTML , CSS , JavaScript , JAVA , Oracle db , MySQL ,  Angular , Spring framework , REST Api , Git. Bootstrap
 
+## **Some Screenshot of projects**
+
+![alt text](https://github.com/Varsha-git/Interiors-WebApplication/blob/master/src/assets/landingpage1.png)
+
+![alt text](https://github.com/Varsha-git/Interiors-WebApplication/blob/master/src/assets/page3.png)
+
+![alt text](https://github.com/Varsha-git/Interiors-WebApplication/blob/master/src/assets/project.png)
+
+![alt text](https://github.com/Varsha-git/Interiors-WebApplication/blob/master/src/assets/products.png)
+
+
 
 
 
