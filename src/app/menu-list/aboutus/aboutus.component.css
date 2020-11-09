@@ -1,48 +1,69 @@
-    .image1 {
-      background-image: url(src/assets/about1.jpg);
-      height: 94%;
-      max-width: 74%;
-
-      
-      margin-left: 15px;
-      margin-top: 20px;
-      border-radius: 50px;
-      
-    }
-      
-    .image2 {
-      background-image: url(src/assets/about2.jpg);
-      height: 94%;
-      width: 74%;
-      margin-left: 15px;
-      border-radius: 50px;
-
-    }
-
-    .image3 {
-      background-image: url(src/assets/about3.jpg);
-      height: 94%;
-      width: 74%;
-      margin-left: 15px;
-      border-radius: 50px;
-
-    }
-
-    .image4 {
-      background-image: url(src/assets/about4.jpg);
-      height: 94%;
-      width: 74%;
-      margin-left: 15px;
-      border-radius: 50px;
-
-    }
-.contact1{
-    background-color: black;
-    height: 60%;
-    border-radius: 30px;
-    color:yellow;
-    font-size: 80px;
-    text-align: center;
-    font-weight: 500;
-    padding-top: 50px;
+.body
+{
+  margin-top: 110px;
+  height: 100%;
 }
+
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: -1060px;
+  left: 80px;
+  width: 50%;
+  height: 50%;
+}
+    
+.videoWrapper1 iframe {
+      position: absolute;
+      top: 510px;
+      left: 80px;
+      width: 50%;
+      height: 50%;
+    }
+.videoWrapper2 iframe {
+      position: absolute;
+      top: 870px;
+      left: 80px;
+      width: 50%;
+      height: 50%;
+    }
+
+ul li a:hover {
+      color: black;
+    font-size: 80px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+.fontcolor1 {
+      color: orange;
+     }
+.fontcolor2 {
+      color: rgb(73, 73, 73);
+    }
+
+.fontcolor3 {
+      color:rgb(34, 34, 173);
+    }
+
+ul li{
+      list-style: none;
+      font-family: 'Cinzel Decorative', cursive;
+      margin-left: 780px;
+      margin-top: 350px;
+    }
+
+    a{
+      font-size: 60px ;
+    }
+
+.body ul{
+    margin-top: 200px;
+    }
+
+  

@@ -1,19 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+.intro1 {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+  font-family: 'Cinzel Decorative', cursive;
+  width: 1000px;
+  padding-top: 50px;
+  height: 500px;
+  border: 1.2px solid rgb(255, 254, 254);
+  margin: 0;
+  text-align: center;
+  margin-left: -100px;
+  margin-top: 150px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(211, 210, 210, 0.425), 0 6px 20px 0 rgba(207, 206, 206, 0.377);
+}
+
+.heading1 {
+  font-size: 80px;
+  margin-top: 200px;
+  font-weight: 900;
+  font-family: 'Rowdies', cursive;
+  margin-top: 10px;
+}
+
+.heading2 {
+  font-size: 1.7em;
+  font-weight: 600;
+  font-family: 'Cinzel Decorative', cursive;
+  margin-top: -20px;
+
+}
+
+.pagal {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.ravan1 {
+  background-image: url(src/assets/funny.jpg);
+  height: 400px;
+  width: 600px;
+  margin-top: -10px;
+  margin-left: 620px;
+  position: absolute;
+  overflow: hidden;
+  border: 1px solid white;
+  box-shadow: 0 8px 12px 0 rgba(211, 210, 210, 0.425), 0 6px 20px 0 rgba(207, 206, 206, 0.377);
+
+}
+
+.by {
+  font-size: 2em;
+  margin-bottom: 200px;
+  font-weight: 400;
+  color: black;
+  margin-top: 100px;
+  font-family: 'Cinzel Decorative', cursive;
+  width: 1000px;
+  padding-top: 250px;
+  height: 600px;
+  border: 1.2px solid rgb(255, 254, 254);
+  margin: 0;
+  text-align: center;
+  margin-left: 150px;
+  margin-top: -100px;
+  position: relative;
+  overflow-x: hidden;
+  box-shadow: 0 4px 8px 0 rgba(211, 210, 210, 0.425), 0 6px 20px 0 rgba(207, 206, 206, 0.377);
+
+
+}
+
+
+
 .container {
   text-align: center;
   margin-top: 100px;
   padding: 10px;
 }
 
+h1 {
+  font-size: 2.1em;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 500;
+  padding: 70px;
+  text-align: center;
+}
+
+.scroll {
+  padding-top: 50px;
+
+}
+
 .img {
   width: 350px;
   height: 450px;
   display: inline-block;
-  margin: 10px;
+  margin: 2px;
   background-size: cover;
   background-repeat: no-repeat;
   transition: 5s;
-  border: 3px solid #E73C7E;
-  border-radius: 12px;
+  border: 1px solid #000000;
+  border-radius: 5px;
 }
 
 .img:hover {
@@ -100,96 +191,4 @@
 
 .img18 {
   background-image: url(src/assets/f18.jpg);
-}
-
-.img19 {
-  background-image: url(src/assets/f19.jpg);
-}
-
-.img20 {
-  background-image: url(src/assets/f20.jpg);
-}
-
-.img21 {
-  background-image: url(src/assets/f21.jpg);
-}
-
-.img22 {
-  background-image: url(src/assets/f22.jpg);
-}
-
-.img23 {
-  background-image: url(src/assets/f23.jpg);
-}
-
-.img24 {
-  background-image: url(src/assets/f24.jpg);
-}
-
-.img25 {
-  background-image: url(src/assets/f25.jpg);
-}
-
-.img26 {
-  background-image: url(src/assets/f26.jpg);
-}
-
-.img27 {
-  background-image: url(src/assets/f27.jpg);
-}
-
-.img28 {
-  background-image: url(src/assets/f28.jpg);
-}
-
-.img29 {
-  background-image: url(src/assets/f29.jpg);
-}
-
-.img30 {
-  background-image: url(src/assets/f30.jpg);
-}
-
-.img31 {
-  background-image: url(src/assets/f31.jpg);
-}
-
-.img32 {
-  background-image: url(src/assets/f32.jpg);
-}
-
-.img33 {
-  background-image: url(src/assets/f33.jpg);
-}
-
-.img34 {
-  background-image: url(src/assets/f34.jpg);
-}
-
-.img35 {
-  background-image: url(src/assets/f35.jpg);
-}
-
-.img36 {
-  background-image: url(src/assets/f36.jpg);
-}
-
-.img37 {
-  background-image: url(src/assets/f37.jpg);
-}
-
-.img38 {
-  background-image: url(src/assets/f38.jpg);
-}
-
-.img39 {
-  background-image: url(src/assets/f39.jpg);
-}
-
-.img40 {
-  background-image: url(src/assets/f40.jpg);
-}
-
-.img41 {
-  background-image: url(src/assets/f41.jpg);
 }

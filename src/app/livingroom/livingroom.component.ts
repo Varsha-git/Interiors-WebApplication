@@ -1,15 +1,17 @@
 import { Component, OnInit } from '@angular/core';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-livingroom',
   templateUrl: './livingroom.component.html',
-  styleUrls: ['./livingroom.component.css']
+  styleUrls: ['./livingroom.component.css'],
 })
 export class LivingroomComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
+  ngOnInit() {
+    console.log('enter on init');
+    console.log(AOS);
+    AOS.init();
   }
-
 }

@@ -1,15 +1,17 @@
 import { Component, OnInit } from '@angular/core';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-together-space',
   templateUrl: './together-space.component.html',
-  styleUrls: ['./together-space.component.css']
+  styleUrls: ['./together-space.component.css'],
 })
 export class TogetherSpaceComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
+  ngOnInit() {
+    console.log('enter on init');
+    console.log(AOS);
+    AOS.init();
   }
-
 }

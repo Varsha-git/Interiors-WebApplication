@@ -12,4 +12,4 @@ export class ServicesComponent implements OnInit {
   ngOnInit(): void {
   }
 
-}
+}//  background: linear-gradient(235deg, #89ff00, #060c21, #00bcd4

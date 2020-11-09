@@ -14,7 +14,6 @@ import { ClocksComponent } from './shop/clocks/clocks.component';
 import { VaseComponent } from './shop/vase/vase.component';
 import { CarpetsComponent } from './shop/carpets/carpets.component';
 import { WallprintComponent } from './shop/wallprint/wallprint.component';
-import { CategoriesComponent } from './categories/categories.component';
 import { BedroomComponent } from './bedroom/bedroom.component';
 import { CustomtablesComponent } from './customtables/customtables.component';
 import { KitchenComponent } from './kitchen/kitchen.component';
@@ -26,47 +25,51 @@ import { AboutComponent } from './menu-list/aboutus/about/about.component';
 import { KeypeopleComponent } from './menu-list/aboutus/keypeople/keypeople.component';
 import { ManifestoComponent } from './menu-list/aboutus/manifesto/manifesto.component';
 import { ServicesComponent } from './menu-list/aboutus/services/services.component';
+import { CartComponent } from './cart/cart.component';
+import { ProductsPageComponent } from './products-page/products-page.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   {
     path: 'menu',
     children: [
       { path: '', component: MenuListComponent },
-      { path: 'aboutus', component: AboutusComponent },
+      { path: 'home', component: HeaderComponent },
+      {
+        path: 'aboutus',
+        component: AboutusComponent,
+      },
       { path: 'contactus', component: ContactusComponent },
       { path: 'projects', component: ProjectsComponent },
     ],
   },
-  {
-    path: 'home',
-    children: [
-      { path: '', component: HeaderComponent },
-      { path: 'bedroom', component: BedroomComponent },
-      { path: 'customtable', component: CustomtablesComponent },
-      { path: 'kitchen', component: KitchenComponent },
-      { path: 'furniture', component: FurnitureComponent },
-      { path: 'lighting', component: LightingComponent },
-      { path: 'livingroom', component: LivingroomComponent },
-      { path: 'together-space', component: TogetherSpaceComponent },
-      { path: 'workspace', component: WorkspaceComponent },
-    ],
-  },
-  {
-    path: 'shop',
-    children: [
-      { path: '', component: ShopComponent },
-      { path: 'paintings', component: PaintingsComponent },
-      { path: 'curtains', component: CurtainsComponent },
-      { path: 'lamps', component: LampsComponent },
-      { path: 'clocks', component: ClocksComponent },
-      { path: 'vase', component: VaseComponent },
-      { path: 'carpets', component: CarpetsComponent },
-      { path: 'wallprint', component: WallprintComponent },
-    ],
-  },
+  { path: 'menu/aboutus/about', component: AboutComponent },
+  { path: 'menu/aboutus/keypeople', component: KeypeopleComponent },
+  { path: 'menu/aboutus/manifesto', component: ManifestoComponent },
+  { path: 'menu/aboutus/services', component: ServicesComponent },
+  { path: 'bedroom', component: BedroomComponent },
+  { path: 'customtable', component: CustomtablesComponent },
+  { path: 'kitchen', component: KitchenComponent },
+  { path: 'furniture', component: FurnitureComponent },
+  { path: 'lighting', component: LightingComponent },
+  { path: 'livingroom', component: LivingroomComponent },
+  { path: 'together-space', component: TogetherSpaceComponent },
+  { path: 'workspace', component: WorkspaceComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home/project-1', component: BedroomComponent },
+  { path: 'home/project-2', component: LivingroomComponent },
+  { path: 'home/project-3', component: KitchenComponent },
+  { path: 'home/project-4', component: FurnitureComponent },
+  { path: 'home/project-5', component: TogetherSpaceComponent },
+  { path: 'home/project-6', component: LightingComponent },
+  { path: 'home/project-7', component: WorkspaceComponent },
+  { path: 'home/project-8', component: CustomtablesComponent },
+  { path: 'home', component: HeaderComponent },
   { path: 'aboutus', component: AboutusComponent },
   { path: 'contactus', component: ContactusComponent },
-  {path: 'shop', component: ShopComponent}
+  { path: 'shop', component: LoginComponent },
+  { path: 'cart', component: CartComponent },
+  { path: 'products', component: ProductsPageComponent },
 ];
 
 @NgModule({

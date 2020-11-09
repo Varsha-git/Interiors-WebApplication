@@ -1,19 +1,18 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import AOS from 'aos';
 
 @Component({
   selector: 'app-categories',
   templateUrl: './categories.component.html',
-  styleUrls: ['./categories.component.css']
+  styleUrls: ['./categories.component.css'],
 })
 export class CategoriesComponent implements OnInit {
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
     console.log('enter on init');
     console.log(AOS);
     AOS.init();
   }
-
 }

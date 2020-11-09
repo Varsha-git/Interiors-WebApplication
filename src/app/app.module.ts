@@ -5,14 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {FormsModule} from '@angular/forms';
 import { MainNavComponent } from './main-nav/main-nav.component';
-import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MenuListComponent } from './menu-list/menu-list.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { AboutusComponent } from './menu-list/aboutus/aboutus.component';
@@ -39,7 +41,18 @@ import { AboutComponent } from './menu-list/aboutus/about/about.component';
 import { KeypeopleComponent } from './menu-list/aboutus/keypeople/keypeople.component';
 import { ServicesComponent } from './menu-list/aboutus/services/services.component';
 import { ManifestoComponent } from './menu-list/aboutus/manifesto/manifesto.component';
-import { AbcComponent } from './abc/abc.component';
+import { CartComponent } from './cart/cart.component';
+import { ProductsPageComponent } from './products-page/products-page.component';
+import { MaterialsModule } from './materials/materials.module';
+import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
+import {
+  SocialLoginModule,
+  SocialAuthServiceConfig,
+  GoogleLoginProvider,
+} from 'angularx-social-login';
+import { LoginComponent } from './login/login.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -71,21 +84,45 @@ import { AbcComponent } from './abc/abc.component';
     KeypeopleComponent,
     ServicesComponent,
     ManifestoComponent,
-    AbcComponent,
+    CartComponent,
+    ProductsPageComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    LayoutModule,
+    MaterialsModule,
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    NgbModule,
+    MatCardModule,
+    MatGridListModule,
+    MatMenuModule,
+    HttpClientModule,
+    SocialLoginModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: 'SocialAuthServiceConfig',
+      useValue: {
+        autoLogin: false,
+        providers: [
+          {
+            id: GoogleLoginProvider.PROVIDER_ID,
+            provider: new GoogleLoginProvider(
+              '387729016267-itr2dhufemei45qpqha1f74i6u5b7jad.apps.googleusercontent.com'
+            ),
+          },
+        ],
+      } as SocialAuthServiceConfig,
+    },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
+//387729016267-tktv8dgmv18f3o7te90ok9s038fucf26.apps.googleusercontent.com
+//387729016267-4vrr3fvcu302fsqv0l81907ousdps7nl.apps.googleusercontent.com old

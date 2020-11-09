@@ -1,67 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
-
-.body1 {
-  margin: 0;
-  padding: 0;
-  background: #333;
-  background: #282828;
-  background: linear-gradient(-45deg, #52c2ee, #E73C7E, #17bfdd, #4169E1);
-  background-size: 400% 400%;
-  animation: Gradient 15s ease infinite;
-
-}
-
-@-webkit-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-
-
-.video1 {
-  min-height: 100%;
-  min-width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding-left: 40px;
-  padding-right: 40px;
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
-
-}
-
-.videodiv {
-  height: 100vh;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
 
 .intro1 {
-  font-size: 2em;
-  margin-bottom: 200px;
-  font-weight: 600;
-  color: rgb(23, 1, 85);
-  margin-top: 100px;
-  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+  font-family: 'Cinzel Decorative', cursive;
+  width: 1000px;
+  padding-top: 50px;
+  height: 500px;
+  border: 1.2px solid rgb(255, 254, 254);
+  margin: 0;
+  text-align: center;
+  margin-left: -100px;
+  margin-top: 150px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(211, 210, 210, 0.425), 0 6px 20px 0 rgba(207, 206, 206, 0.377);
 }
 
-.intro2 {
-  font-size: 4em;
-  font-family: 'Fondamento', cursive;
-  color: white;
-  margin-top: 50px;
+.heading1 {
+  font-size: 80px;
+  margin-top: 200px;
+  font-weight: 900;
+  font-family: 'Rowdies', cursive;
+  margin-top: 10px;
 }
+
+.heading2 {
+  font-size: 1.7em;
+  font-weight: 600;
+  font-family: 'Cinzel Decorative', cursive;
+  margin-top: -20px;
+
+}
+
+.pagal {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.ravan1 {
+  background-image: url(src/assets/kittu.jpg);
+  height: 397px;
+  width: 600px;
+  margin-top: -10px;
+  margin-left: 620px;
+  position: absolute;
+  overflow: hidden;
+  border: 1px solid white;
+  box-shadow: 0 8px 12px 0 rgba(211, 210, 210, 0.425), 0 6px 20px 0 rgba(207, 206, 206, 0.377);
+
+}
+
+.by {
+  font-size: 2em;
+  margin-bottom: 200px;
+  font-weight: 400;
+  color: black;
+  margin-top: 100px;
+  font-family: 'Cinzel Decorative', cursive;
+  width: 1000x;
+  padding-top: 250px;
+  height: 600px;
+  border: 1.2px solid rgb(255, 254, 254);
+  margin: 0;
+  text-align: center;
+  margin-left: 150px;
+  margin-top: -100px;
+  position: relative;
+  overflow-x: hidden;
+  box-shadow: 0 4px 8px 0 rgba(211, 210, 210, 0.425), 0 6px 20px 0 rgba(207, 206, 206, 0.377);
+
+
+}
+
+
 
 .container {
   text-align: center;
@@ -69,16 +82,30 @@
   padding: 10px;
 }
 
+h1 {
+  font-size: 2.1em;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 500;
+  padding: 70px;
+  text-align: center;
+}
+
+.scroll {
+  padding-top: 50px;
+
+}
+
+
 .img {
   width: 350px;
   height: 450px;
   display: inline-block;
-  margin: 10px;
+  margin: 5px;
   background-size: cover;
   background-repeat: no-repeat;
   transition: 5s;
-  border: 3px solid #E73C7E;
-  border-radius: 12px;
+  border: 1px solid #000000;
+  border-radius: 5px;
 }
 
 .img:hover {
@@ -153,72 +180,4 @@
 
 .img15 {
   background-image: url(src/assets/k22.jpg);
-}
-
-.img16 {
-  background-image: url(src/assets/k2.jpg);
-}
-
-.img17 {
-  background-image: url(src/assets/k4.jpg);
-}
-
-.img18 {
-  background-image: url(src/assets/k7.jpg);
-}
-
-.img19 {
-  background-image: url(src/assets/k23.jpg);
-}
-
-.img20 {
-  background-image: url(src/assets/k24.jpg);
-}
-
-.img21 {
-  background-image: url(src/assets/k26.jpg);
-}
-
-.img22 {
-  background-image: url(src/assets/k29.jpg);
-}
-
-.img23 {
-  background-image: url(src/assets/k6.jpg);
-}
-
-.img24 {
-  background-image: url(src/assets/k32.jpg);
-}
-
-.img25 {
-  background-image: url(src/assets/k1.jpg);
-}
-
-.img26 {
-  background-image: url(src/assets/k5.jpg);
-}
-
-.img27 {
-  background-image: url(src/assets/k10.jpg);
-}
-
-.img28 {
-  background-image: url(src/assets/k18.jpg);
-}
-
-.img29 {
-  background-image: url(src/assets/k25.jpg);
-}
-
-.img30 {
-  background-image: url(src/assets/k27.jpg);
-}
-
-.img31 {
-  background-image: url(src/assets/k28.jpg);
-}
-
-.img32 {
-  background-image: url(src/assets/k30.jpg);
 }

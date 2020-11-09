@@ -1,4 +1,20 @@
-# Interior
+## Interior
+
+**ABOUT**
+The project aimed at developing a webApplication for an interior designer named myself which displays their every detail of projects, that was divided into multiple segment
+and shopping facility of their pre customized products for sale. I can say its an combination of featuring and sales platform together.
+As sales platform 8 categories for sales which I have created Rest api to fetch data from database to showcase for user, shopping fetures like add to cart, remove from cart, 
+check out and login was simply made using Google Authentication.
+Most beautiful escape for this project was landing page it was really very awesome.  Even today I see it now it makes me feel proud about its all UI and UX desing and display
+pattern and presenatation from landing page to Order Completion. As it was Interior designer website so it has tobe very unique and be very presentable and detailed.
+It lead me to wining another award in Mega Pro show.
+ 
+
+Here are few technologies which carved out my best possibilites in my projects.
+HTML , CSS , JavaScript , JAVA , Oracle db , MySQL ,  Angular , Spring framework , REST Api , Git. Bootstrap
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 

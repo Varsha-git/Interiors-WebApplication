@@ -2,18 +2,18 @@
   display: flex;
   justify-content: space-between;
   color: black;
-  position: fixed;
-  z-index: 1;
+  margin-top: 100px; 
 }
 
 .body {
-  background: #282828;
   height: 100vh;
+  background: blue;
 }
 
 .my-app {
   display: flex;
   justify-content: space-evenly;
+ 
 }
 
 .my-app li {

@@ -1,0 +1,46 @@
+.bg-transparent {
+
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #04d9ff, #4169E1);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  margin-top: 90px;
+  height: 100%;
+}
+
+
+:host {
+  height: 100%;
+}
+
+.photo {
+  object-fit: contain;
+}
+
+.card {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  background: transparent;
+  font-size: 3em;
+  padding: 20px;
+}
+
+.card:hover {
+  color: white;
+}
+
+
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}

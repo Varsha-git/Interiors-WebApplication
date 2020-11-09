@@ -1,43 +1,169 @@
-a:hover{
-    color:rgb(253, 4, 128);
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+.body {
+  height: 100vh;
+  font-family: sans-serif;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #04d9ff, #4169E1);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  margin-top: 90px;
 }
-.T{
-    font-size:35px;
-    font-weight: 600px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #4169E1;
-    margin-left: 230px;
-    margin-top: 100px;
+
+.login-box {
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin-left: 00px;
+  margin-top: 70px;
+  font-family: 'Cinzel Decorative', cursive;
+  text-decoration: none;
+  text-align: center;
+
 }
-.F{
-    font-size:35px;
-    font-weight: 400px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #4169E1;
-    margin-left: 400px;
-    margin-top: -20px;
+
+.login-box h1 {
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid #000000;
+  margin-bottom: 50px;
+  padding: 13px 0;
+  color: rgb(2, 2, 2);
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 900;
+  text-decoration: none;
+  text-align: center;
 }
-.I{
-    font-size:35px;
-    font-weight: 600px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #4169E1;
-    margin-left: 600px;
-    margin-top: -20px;
+
+.textbox {
+  width: 100%;
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #ffffff;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 800;
+  text-align: center;
 }
-.P{
-    font-size:35px;
-    font-weight: 600px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #4169E1;
-    margin-left: 830px;
-    margin-top: -20px;
+
+.textbox i {
+  width: 26px;
+  float: left;
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
 }
-.Y{
-    font-size:35px;
-    font-weight: 600px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #4169E1;
-    margin-left: 1000px;
-    margin-top: -20px;
+
+.textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 800;
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+  background: none;
+  border: 2px solid #ffffff;
+  color: white;
+  padding: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 12px 0;
+  font-weight: 800;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+h2 {
+  font-size: 6em;
+  color: white;
+  font-weight: 500;
+  font-family: 'Cinzel Decorative', cursive;
+  margin-left: 280px;
+  margin-top: 90px;
+  padding-top: 50px;
+
+}
+
+h2 span {
+  animation: animate 1s linear infinite;
+}
+
+h2 span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+h2 span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+h2 span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+h2 span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+h2 span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+h2 span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+h2 span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+
+@keyframes animate {
+  0% {
+    color: rgb(31, 31, 31);
+    text-shadow: none;
+  }
+
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #fff,
+      0 0 80px #fff,
+      0 0 120px #fff,
+      0 0 160px #fff,
+      0 0 180px #fff;
+
+  }
+}
+
+div span {
+  padding: 20px;
+
 }
