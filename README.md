@@ -23,10 +23,6 @@ HTML , CSS , JavaScript , JAVA , Oracle db , MySQL ,  Angular , Spring framework
 
 ![alt text](https://github.com/Varsha-git/Interiors-WebApplication/blob/master/src/assets/products.png)
 
-## **Short Video**
-[![Watch the video](https://github.com/Varsha-git/Interiors-WebApplication/blob/master/src/assets/landingpage1.png)](https://github.com/Varsha-git/Interiors-WebApplication/blob/master/src/assets/Interiors.mp4)
-
-
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
